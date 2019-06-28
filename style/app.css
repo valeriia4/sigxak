@@ -1,0 +1,556 @@
+@import url("https://fonts.googleapis.com/css?family=Signika:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto; }
+
+* {
+  -webkit-transition: all .1s ease-in;
+  -o-transition: all .1s ease-in;
+  transition: all .1s ease-in; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+[class^='col'] {
+  width: 100%;
+  min-height: 1px; }
+
+.col-12 {
+  width: 100%; }
+
+.col-11 {
+  width: 91.66667%; }
+
+.col-10 {
+  width: 83.33333%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-8 {
+  width: 66.66667%; }
+
+.col-7 {
+  width: 58.33333%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-5 {
+  width: 41.66667%; }
+
+.col-4 {
+  width: 33.33333%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-2 {
+  width: 16.66667%; }
+
+.col-1 {
+  width: 8.33333%; }
+
+body {
+  max-width: 1920px;
+  font-family: sans-serif;
+  font-size: 1rem; }
+
+a, button {
+  -webkit-transition: .3s ease-in;
+  -o-transition: .3s ease-in;
+  transition: .3s ease-in;
+  -webkit-transition-property: color, background-color, opacity;
+  -o-transition-property: color, background-color, opacity;
+  transition-property: color, background-color, opacity; }
+  a svg, button svg {
+    fill: currentColor; }
+
+button, .button {
+  cursor: pointer; }
+
+.ba-header {
+  background-image: url("../img/Layer 1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 450px; }
+
+.logo__title {
+  font-size: 6.75rem;
+  font-family: "Signika", sans-serif;
+  color: #f1f2f1;
+  font-weight: lighter;
+  text-align: center;
+  line-height: 0.7;
+  margin-bottom: 50px; }
+
+.logo__subtitle {
+  font-size: 3rem;
+  font-family: "Signika", sans-serif;
+  color: #f1f2f1;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px; }
+
+.logo__about {
+  font-size: 1.125rem;
+  font-family: "Signika", sans-serif;
+  color: #f1f2f1;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.111;
+  text-align: center;
+  margin-bottom: 300px; }
+
+.nav {
+  background-color: #02c5a5;
+  height: 67px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.menu {
+  max-width: 1400px;
+  margin: 0 auto; }
+  .menu__item {
+    display: inline-block;
+    font-size: 1.125rem;
+    font-family: "Signika", sans-serif;
+    color: #f1f2f1;
+    text-transform: uppercase;
+    line-height: 1.111; }
+
+.menu__item + .menu__item {
+  padding-left: 20px; }
+  .menu__item + .menu__item:before {
+    content: '//';
+    padding-right: 20px; }
+
+.section {
+  margin-bottom: 100px; }
+  .section__title {
+    font-size: 3rem;
+    font-family: "Signika", sans-serif;
+    color: #140e1d;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px; }
+    .section__title:after {
+      content: '';
+      display: block;
+      height: 10px;
+      width: 10px;
+      background-color: #000;
+      border-radius: 50%;
+      -webkit-box-shadow: -14px 0 0px 0px black, 14px 0 0px 0px black;
+      box-shadow: -14px 0 0px 0px black, 14px 0 0px 0px black;
+      position: relative;
+      top: 12px;
+      left: 50%;
+      text-align: center; }
+  .section__subtitle {
+    font-size: 1rem;
+    font-family: "Signika", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 75px;
+    font-weight: bold; }
+  .section__text {
+    font-size: 0.875rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    line-height: 2.143;
+    max-width: 618px;
+    text-align: justify; }
+  .section__content {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+.people {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.person__img {
+  max-height: 268px; }
+  .person__img img {
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.person__card {
+  max-width: 270px; }
+
+.person__name {
+  font-size: 1.125rem;
+  font-family: "Signika", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.111; }
+
+.person__position {
+  font-size: 1rem;
+  font-family: "Signika", sans-serif;
+  color: white;
+  line-height: 1.25;
+  text-align: center;
+  margin: 25px 0; }
+
+.person__about {
+  font-size: 0.75rem;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 1.75;
+  text-align: justify;
+  max-width: 225px; }
+
+.person__card-hov {
+  opacity: 0;
+  background-color: #00a388;
+  padding: 25px; }
+
+.person__card:hover .person__card-hov {
+  opacity: 1; }
+
+.section__title {
+  margin-bottom: 70px; }
+
+.section .menu {
+  text-align: center; }
+
+.section .menu__item {
+  color: #000;
+  font-weight: 700; }
+
+.portfolio-img {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.portfolio__title {
+  font-size: 30px;
+  font-family: "Signika", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.portfolio__subtitle {
+  font-size: 18px;
+  font-family: 'OpenSans', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin: 25px 0; }
+
+.col-3 {
+  position: relative; }
+
+.img-container {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  background: rgba(45, 162, 141, 0.6);
+  opacity: 0; }
+  .img-container:hover {
+    opacity: 1; }
+
+.service {
+  max-width: 1400px;
+  margin: 0 auto; }
+  .service__title {
+    font-size: 2.25rem;
+    font-family: "Signika", sans-serif;
+    color: #140e1d;
+    margin: 25px 0; }
+  .service__text {
+    font-size: 0.975rem;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
+    line-height: 2.143;
+    text-align: left; }
+  .service__btn {
+    font-size: 1.125rem;
+    font-family: "Signika", sans-serif;
+    color: #140e1d;
+    line-height: 1;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    margin-left: auto;
+    opacity: 0;
+    float: right; }
+  .service-item {
+    max-width: 650px;
+    margin-bottom: 60px; }
+
+.service-item:hover {
+  background-color: #f5fffd;
+  overflow-y: hidden; }
+  .service-item:hover .service__btn {
+    opacity: 1; }
+
+.serv-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.service-item:nth-child(even) {
+  margin-left: 100px; }
+
+.icon {
+  background-color: #fff; }
+
+.blog {
+  background-color: #ecfffc;
+  padding-bottom: 150px;
+  padding-top: 100px; }
+  .blog-item {
+    margin-bottom: 35px; }
+
+.blog-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.blog-img {
+  width: 322px;
+  height: 325px; }
+  .blog-img img {
+    -o-object-fit: cover;
+    object-fit: cover; }
+
+.blog-card {
+  max-width: 323px;
+  height: 350px;
+  padding: 25px;
+  background-color: #fff; }
+  .blog-card__link {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: #00a388;
+    font-weight: bold; }
+  .blog-card__info {
+    font-size: 24px;
+    font-family: "Signika", sans-serif;
+    color: black;
+    margin: 25px 0 40px;
+    text-align: justify; }
+  .blog-card__text {
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    letter-spacing: 0.05em;
+    line-height: 2; }
+
+.contact-form {
+  max-width: 1400px;
+  margin: 0 auto 250px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative; }
+
+.contact-list {
+  width: 48.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .contact-list input {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    border-radius: 10px;
+    padding-left: 26px;
+    outline-style: none;
+    color: #fff;
+    border: none; }
+    .contact-list input::-webkit-input-placeholder {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 300; }
+    .contact-list input:-ms-input-placeholder {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 300; }
+    .contact-list input::-ms-input-placeholder {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 300; }
+    .contact-list input::placeholder {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 18px;
+      font-weight: 300; }
+
+.contact-form textarea {
+  width: 48.5%;
+  height: 100%;
+  background-color: #000;
+  resize: none;
+  border-radius: 10px;
+  padding-left: 26px;
+  padding-top: 26px;
+  outline-style: none;
+  color: #fff;
+  border: none; }
+  .contact-form textarea::-webkit-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+  .contact-form textarea:-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+  .contact-form textarea::-ms-input-placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+  .contact-form textarea::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 300; }
+
+.contact-form__btn {
+  width: 150px;
+  height: 47px;
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: normal;
+  color: #FFF;
+  text-transform: uppercase;
+  outline-style: none;
+  border-radius: 10px;
+  border: none;
+  position: absolute;
+  bottom: -125px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.ba-footer {
+  background-color: #00a388; }
+
+.footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.place, .adres, .number {
+  font-size: 1.125rem;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  line-height: 1.875;
+  text-align: left;
+  font-weight: lighter; }
+
+.footer__list {
+  font-size: 1rem;
+  font-family: "Signika", sans-serif;
+  color: white;
+  line-height: 2.188;
+  font-weight: normal; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .social a {
+    max-width: 51px;
+    margin: 0 5px; }
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.contact-adres {
+  margin-right: 70px; }
+
+.copyright {
+  height: 90px;
+  background-color: #140e1d; }
+  .copyright .copy-info {
+    font-size: 0.975rem;
+    font-family: "Signika", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 90px;
+    text-align: center; }
+
+/*# sourceMappingURL=app.css.map */
