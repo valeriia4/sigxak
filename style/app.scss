@@ -56,7 +56,9 @@ $col: $columns;
 
 // layout
 *{transition: all .1s ease-in;} 
-
+img{
+  display: block;
+}
 .row{
   display: flex;
   flex-wrap: wrap;

@@ -10,6 +10,9 @@
   -o-transition: all .1s ease-in;
   transition: all .1s ease-in; }
 
+img {
+  display: block; }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -553,4 +556,8 @@ button, .button {
     line-height: 90px;
     text-align: center; }
 
+#map{
+  height: 400px;
+  width: 100%;
+}
 /*# sourceMappingURL=app.css.map */
